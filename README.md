@@ -61,6 +61,8 @@ he objective of this project is to analyze HR data using Tableau to identify key
 
 -Gender – Male / Female
 
+- Dashboard Interactions <a href = "https://github.com/udayasri009/POWERBI_HR_Analytics_Dashboard/blob/main/HR%20ANALYSIS%20PROJECT%20POWERBI.pbix">View Dashboard</a>
+
 ## FORMULAS
 
 🔹 1. Total Employee Count
@@ -117,12 +119,12 @@ SUM(
 IF [Attrition] = "Yes" THEN 1 ELSE 0 END
 )
 
-## DASHBOARD
-![HR Analytics Dashboard](_DASHBOARD.IMG.png)
-
 🔹 16. Department-wise Attrition Rate
 SUM(IF [Attrition] = "Yes" THEN 1 ELSE 0 END)
 / COUNT([Employee ID])
+
+## DASHBOARD
+![HR Analytics Dashboard](_DASHBOARD.IMG.png)
 
 ## Project Insight
 
