@@ -1,7 +1,7 @@
 # HR-Analytics-Dashboard (Interactive Dashboard Creation Using tableau)
 
 ## Project Objective
-he objective of this project is to analyze HR data using Tableau to identify key workforce trends such as employee attrition, headcount distribution, and demographic patterns, and to present actionable insights through interactive dashboards that support effective HR decision-making and strategic planning.
+The objective of this project is to analyze HR data using Tableau to identify key workforce trends such as employee attrition, headcount distribution, and demographic patterns, and to present actionable insights through interactive dashboards that support effective HR decision-making and strategic planning.
 
 ## Dataset used
 
@@ -61,7 +61,7 @@ he objective of this project is to analyze HR data using Tableau to identify key
 
 -Gender – Male / Female
 
-- Dashboard Interactions <a href = "https://github.com/udayasri009/POWERBI_HR_Analytics_Dashboard/blob/main/HR%20ANALYSIS%20PROJECT%20POWERBI.pbix">View Dashboard</a>
+- Dashboard Interactions <a href = "https://github.com/udayasri009/TABLEAU_HR_Analytics_Dashboard/blob/main/HR%20ANALYST%20ON%20TABLEAU.twbx">View Dashboard</a>
 
 ## FORMULAS
 
@@ -124,7 +124,7 @@ SUM(IF [Attrition] = "Yes" THEN 1 ELSE 0 END)
 / COUNT([Employee ID])
 
 ## DASHBOARD
-![HR Analytics Dashboard](_DASHBOARD.IMG.png)
+![HR Analytics Dashboard](tableau.img.png)
 
 ## Project Insight
 
