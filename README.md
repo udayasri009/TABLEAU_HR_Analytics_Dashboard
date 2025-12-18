@@ -107,9 +107,8 @@ AVG([Standard Hours])
 INT([Age] / 4) * 4
 
 🔹 13. Age Bin (Using Parameter)
-
-Parameter Name: Age Bin Size
-INT([Age] / [Age Bin Size]) * [Age Bin Size]
+      Parameter Name: Age Bin Size
+      INT([Age] / [Age Bin Size]) * [Age Bin Size]
 
 🔹 14. Education-wise Employee Count
 COUNT([Employee ID])
